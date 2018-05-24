@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+}
+
+.page {
+    background-color: rgb(228, 226, 224);
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.page-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    padding-top: 5em;
+}
+
+.page-header {
+    color: white;
+    padding: 1em;
+    background: linear-gradient(rgb(0,172,238), rgb(0, 123, 167));
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.page-footer {
+    padding: 1em;
+    flex: none;
+}
+
+.page-module {
+    padding: 1em;
+}
+
+.ui.centered.card {
+    background-color: rgb(244, 242, 242);
+}
+
+h4 {
+    color: grey;
+}
